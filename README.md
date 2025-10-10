@@ -12,6 +12,13 @@ After you execute it, you can get
 4. This file provides real-time price of your assets, your PNL on futures, your NFT, your current loans and Total value.
 5. Dollar($) based
 
+
+# How to Execute
+Type
+python porfolio.py --file template.csv
+=> If you change the name of csv file, change the file name after --file.
+
+
 # How to use Template
 
 I recommend you to fill the column which is 'bold'-written.
@@ -68,6 +75,9 @@ There are 8 blocks; source_name, loan_assets, principal, collateral_asset, colla
 - apr_override : it would be calculated based on APR 8%. In the result, you can check 30-day interest based on APR 8%
 - notes : memo
 
+Liq LTV is set as 80%
+
+
 E. Exclude
 
 You might want the result which the value you set would be excluded from your total assets.
@@ -96,4 +106,4 @@ p.s. That's not my portfolio. Arbitrary example based on template.csv
 
 
 
-Any feedback is welcome :D
+Any feedback is welcome. Thanks for reading it.
