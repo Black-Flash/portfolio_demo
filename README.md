@@ -4,7 +4,6 @@ With CSV (template) file, track your crypto assets in CEX &amp; Wallet
 After you execute it, you can get
 1) Your total asset value : loans + equity + PNL + NFT
 2) Your loans value and its info : current ltv, liq price, how much it drops for liquidiation
-3) 
 
 1. 100% Prompt-driven development (GPT 5.0)
 2. Only Used Coingecko API (No CEX API)
@@ -14,6 +13,11 @@ After you execute it, you can get
 
 
 # How to Execute
+You need...
+pandas>=2.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+&
 Type
 python porfolio.py --file template.csv
 => If you change the name of csv file, change the file name after --file.
