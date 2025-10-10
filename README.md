@@ -81,8 +81,15 @@ There are 4 blocks; type, value, source_name, asset
 # Flow tracking the price
 Coingecko API -> somewhat error? -> use binance info; You don't have to take care about it
 
+
+# Result
+ASSETS = LIAB(Loans) + EQUITY
+EQUITY = ASSETS - LIAB
+
+
 # Result after you execute this code with template.csv
 <img width="1876" height="147" alt="image" src="https://github.com/user-attachments/assets/357f9c61-bb6e-4f36-ac54-87b31e5d8698" />
+p.s. That's not my portfolio. Arbitrary example based on template.csv
 
 
 
